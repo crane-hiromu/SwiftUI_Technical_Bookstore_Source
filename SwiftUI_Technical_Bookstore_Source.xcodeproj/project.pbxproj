@@ -11,6 +11,16 @@
 		842EB12123127D8D001EEDF3 /* RectanglesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842EB12023127D8D001EEDF3 /* RectanglesView.swift */; };
 		842EB12323127DB0001EEDF3 /* RectanglesGeometryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842EB12223127DB0001EEDF3 /* RectanglesGeometryView.swift */; };
 		842EB125231297F7001EEDF3 /* GeometryCoordinateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842EB124231297F7001EEDF3 /* GeometryCoordinateView.swift */; };
+		846F0580231317DE007B7DFE /* ScrollsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846F057F231317DE007B7DFE /* ScrollsView.swift */; };
+		846F058323131AA8007B7DFE /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846F058223131AA8007B7DFE /* FormView.swift */; };
+		846F058523131AB9007B7DFE /* GroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846F058423131AB9007B7DFE /* GroupView.swift */; };
+		846F058723131AC2007B7DFE /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846F058623131AC2007B7DFE /* SectionView.swift */; };
+		847D12D42313108B00D974AB /* ListsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847D12D32313108B00D974AB /* ListsView.swift */; };
+		847D12D6231310B100D974AB /* VStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847D12D5231310B100D974AB /* VStackView.swift */; };
+		847D12D8231310D200D974AB /* HStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847D12D7231310D200D974AB /* HStackView.swift */; };
+		847D12DA231310D900D974AB /* ZStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847D12D9231310D900D974AB /* ZStackView.swift */; };
+		847D12DC2313116100D974AB /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847D12DB2313116100D974AB /* TextView.swift */; };
+		847D12E02313148C00D974AB /* ForEachView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847D12DF2313148C00D974AB /* ForEachView.swift */; };
 		84CDD9932311C65400B5BAB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CDD9922311C65400B5BAB1 /* AppDelegate.swift */; };
 		84CDD9952311C65400B5BAB1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CDD9942311C65400B5BAB1 /* SceneDelegate.swift */; };
 		84CDD9972311C65400B5BAB1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CDD9962311C65400B5BAB1 /* ContentView.swift */; };
@@ -44,6 +54,16 @@
 		842EB12023127D8D001EEDF3 /* RectanglesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectanglesView.swift; sourceTree = "<group>"; };
 		842EB12223127DB0001EEDF3 /* RectanglesGeometryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectanglesGeometryView.swift; sourceTree = "<group>"; };
 		842EB124231297F7001EEDF3 /* GeometryCoordinateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryCoordinateView.swift; sourceTree = "<group>"; };
+		846F057F231317DE007B7DFE /* ScrollsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollsView.swift; sourceTree = "<group>"; };
+		846F058223131AA8007B7DFE /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
+		846F058423131AB9007B7DFE /* GroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupView.swift; sourceTree = "<group>"; };
+		846F058623131AC2007B7DFE /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
+		847D12D32313108B00D974AB /* ListsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListsView.swift; sourceTree = "<group>"; };
+		847D12D5231310B100D974AB /* VStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStackView.swift; sourceTree = "<group>"; };
+		847D12D7231310D200D974AB /* HStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackView.swift; sourceTree = "<group>"; };
+		847D12D9231310D900D974AB /* ZStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackView.swift; sourceTree = "<group>"; };
+		847D12DB2313116100D974AB /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		847D12DF2313148C00D974AB /* ForEachView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachView.swift; sourceTree = "<group>"; };
 		84CDD98F2311C65400B5BAB1 /* SwiftUI_Technical_Bookstore_Source.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Technical_Bookstore_Source.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84CDD9922311C65400B5BAB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84CDD9942311C65400B5BAB1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -99,19 +119,39 @@
 			children = (
 				84CDD9C42311C68A00B5BAB1 /* 1.ViewBuilder */,
 				842EB1172311E60B001EEDF3 /* 2.ViewModifier */,
-				842EB11B231271BE001EEDF3 /* 9.GeometryReader */,
+				842EB11B231271BE001EEDF3 /* 3.GeometryReader */,
 			);
 			path = "3項";
 			sourceTree = "<group>";
 		};
-		842EB11B231271BE001EEDF3 /* 9.GeometryReader */ = {
+		842EB11B231271BE001EEDF3 /* 3.GeometryReader */ = {
 			isa = PBXGroup;
 			children = (
 				842EB12023127D8D001EEDF3 /* RectanglesView.swift */,
 				842EB12223127DB0001EEDF3 /* RectanglesGeometryView.swift */,
 				842EB124231297F7001EEDF3 /* GeometryCoordinateView.swift */,
 			);
-			path = 9.GeometryReader;
+			path = 3.GeometryReader;
+			sourceTree = "<group>";
+		};
+		846F0581231319F9007B7DFE /* 4.Container Views */ = {
+			isa = PBXGroup;
+			children = (
+				846F058223131AA8007B7DFE /* FormView.swift */,
+				846F058423131AB9007B7DFE /* GroupView.swift */,
+				846F058623131AC2007B7DFE /* SectionView.swift */,
+			);
+			path = "4.Container Views";
+			sourceTree = "<group>";
+		};
+		847D12D223130FE400D974AB /* 3.Lists and Scroll Views */ = {
+			isa = PBXGroup;
+			children = (
+				847D12D32313108B00D974AB /* ListsView.swift */,
+				847D12DF2313148C00D974AB /* ForEachView.swift */,
+				846F057F231317DE007B7DFE /* ScrollsView.swift */,
+			);
+			path = "3.Lists and Scroll Views";
 			sourceTree = "<group>";
 		};
 		84CDD9862311C65400B5BAB1 = {
@@ -195,8 +235,30 @@
 		84F2ABC02312FD8300F9EEA6 /* 2項 */ = {
 			isa = PBXGroup;
 			children = (
+				84F2ABC12312FF8400F9EEA6 /* 1.View */,
+				84F2ABC42313050100F9EEA6 /* 2.Stacks */,
+				847D12D223130FE400D974AB /* 3.Lists and Scroll Views */,
+				846F0581231319F9007B7DFE /* 4.Container Views */,
 			);
 			path = "2項";
+			sourceTree = "<group>";
+		};
+		84F2ABC12312FF8400F9EEA6 /* 1.View */ = {
+			isa = PBXGroup;
+			children = (
+				847D12DB2313116100D974AB /* TextView.swift */,
+			);
+			path = 1.View;
+			sourceTree = "<group>";
+		};
+		84F2ABC42313050100F9EEA6 /* 2.Stacks */ = {
+			isa = PBXGroup;
+			children = (
+				847D12D5231310B100D974AB /* VStackView.swift */,
+				847D12D7231310D200D974AB /* HStackView.swift */,
+				847D12D9231310D900D974AB /* ZStackView.swift */,
+			);
+			path = 2.Stacks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -331,12 +393,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				84CDD9932311C65400B5BAB1 /* AppDelegate.swift in Sources */,
+				846F058523131AB9007B7DFE /* GroupView.swift in Sources */,
+				846F058723131AC2007B7DFE /* SectionView.swift in Sources */,
 				84CDD9952311C65400B5BAB1 /* SceneDelegate.swift in Sources */,
 				842EB12123127D8D001EEDF3 /* RectanglesView.swift in Sources */,
+				846F0580231317DE007B7DFE /* ScrollsView.swift in Sources */,
+				847D12DC2313116100D974AB /* TextView.swift in Sources */,
 				84CDD9C32311C68000B5BAB1 /* ViewBuilder.swift in Sources */,
+				847D12D8231310D200D974AB /* HStackView.swift in Sources */,
 				842EB1192311E6B9001EEDF3 /* ViewModifier.swift in Sources */,
+				846F058323131AA8007B7DFE /* FormView.swift in Sources */,
+				847D12D6231310B100D974AB /* VStackView.swift in Sources */,
 				842EB12323127DB0001EEDF3 /* RectanglesGeometryView.swift in Sources */,
+				847D12D42313108B00D974AB /* ListsView.swift in Sources */,
 				842EB125231297F7001EEDF3 /* GeometryCoordinateView.swift in Sources */,
+				847D12E02313148C00D974AB /* ForEachView.swift in Sources */,
+				847D12DA231310D900D974AB /* ZStackView.swift in Sources */,
 				84CDD9972311C65400B5BAB1 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
