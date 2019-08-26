@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8424C5FB231474EC008ADCB1 /* RectangleShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424C5FA231474EC008ADCB1 /* RectangleShape.swift */; };
+		8424C5FD231474FA008ADCB1 /* CircleShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424C5FC231474FA008ADCB1 /* CircleShape.swift */; };
+		8424C5FF23147514008ADCB1 /* EllipseShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424C5FE23147514008ADCB1 /* EllipseShape.swift */; };
+		8424C60123147528008ADCB1 /* CapsuleShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424C60023147528008ADCB1 /* CapsuleShape.swift */; };
+		8424C60523147550008ADCB1 /* RoundedRectangleShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424C60423147550008ADCB1 /* RoundedRectangleShape.swift */; };
 		842EB1192311E6B9001EEDF3 /* ViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842EB1182311E6B9001EEDF3 /* ViewModifier.swift */; };
 		842EB12123127D8D001EEDF3 /* RectanglesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842EB12023127D8D001EEDF3 /* RectanglesView.swift */; };
 		842EB12323127DB0001EEDF3 /* RectanglesGeometryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842EB12223127DB0001EEDF3 /* RectanglesGeometryView.swift */; };
 		842EB125231297F7001EEDF3 /* GeometryCoordinateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842EB124231297F7001EEDF3 /* GeometryCoordinateView.swift */; };
+		8464149823147126001C8A8C /* ActionSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8464149723147126001C8A8C /* ActionSheetView.swift */; };
 		846F0580231317DE007B7DFE /* ScrollsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846F057F231317DE007B7DFE /* ScrollsView.swift */; };
 		846F058323131AA8007B7DFE /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846F058223131AA8007B7DFE /* FormView.swift */; };
 		846F058523131AB9007B7DFE /* GroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846F058423131AB9007B7DFE /* GroupView.swift */; };
 		846F058723131AC2007B7DFE /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846F058623131AC2007B7DFE /* SectionView.swift */; };
-		847D12D42313108B00D974AB /* ListsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847D12D32313108B00D974AB /* ListsView.swift */; };
+		846F058C231464BD007B7DFE /* SpacerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846F058B231464BD007B7DFE /* SpacerView.swift */; };
+		846F0590231464D6007B7DFE /* DividerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846F058F231464D6007B7DFE /* DividerView.swift */; };
+		846F0594231464FA007B7DFE /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846F0593231464FA007B7DFE /* ListView.swift */; };
+		846F059923146CA0007B7DFE /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846F059823146CA0007B7DFE /* AlertView.swift */; };
 		847D12D6231310B100D974AB /* VStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847D12D5231310B100D974AB /* VStackView.swift */; };
 		847D12D8231310D200D974AB /* HStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847D12D7231310D200D974AB /* HStackView.swift */; };
 		847D12DA231310D900D974AB /* ZStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847D12D9231310D900D974AB /* ZStackView.swift */; };
@@ -50,15 +59,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8424C5FA231474EC008ADCB1 /* RectangleShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleShape.swift; sourceTree = "<group>"; };
+		8424C5FC231474FA008ADCB1 /* CircleShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleShape.swift; sourceTree = "<group>"; };
+		8424C5FE23147514008ADCB1 /* EllipseShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllipseShape.swift; sourceTree = "<group>"; };
+		8424C60023147528008ADCB1 /* CapsuleShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleShape.swift; sourceTree = "<group>"; };
+		8424C60423147550008ADCB1 /* RoundedRectangleShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedRectangleShape.swift; sourceTree = "<group>"; };
 		842EB1182311E6B9001EEDF3 /* ViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifier.swift; sourceTree = "<group>"; };
 		842EB12023127D8D001EEDF3 /* RectanglesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectanglesView.swift; sourceTree = "<group>"; };
 		842EB12223127DB0001EEDF3 /* RectanglesGeometryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectanglesGeometryView.swift; sourceTree = "<group>"; };
 		842EB124231297F7001EEDF3 /* GeometryCoordinateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryCoordinateView.swift; sourceTree = "<group>"; };
+		8464149723147126001C8A8C /* ActionSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetView.swift; sourceTree = "<group>"; };
 		846F057F231317DE007B7DFE /* ScrollsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollsView.swift; sourceTree = "<group>"; };
 		846F058223131AA8007B7DFE /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
 		846F058423131AB9007B7DFE /* GroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupView.swift; sourceTree = "<group>"; };
 		846F058623131AC2007B7DFE /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
-		847D12D32313108B00D974AB /* ListsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListsView.swift; sourceTree = "<group>"; };
+		846F058B231464BD007B7DFE /* SpacerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerView.swift; sourceTree = "<group>"; };
+		846F058F231464D6007B7DFE /* DividerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DividerView.swift; sourceTree = "<group>"; };
+		846F0593231464FA007B7DFE /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		846F059823146CA0007B7DFE /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
 		847D12D5231310B100D974AB /* VStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStackView.swift; sourceTree = "<group>"; };
 		847D12D7231310D200D974AB /* HStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackView.swift; sourceTree = "<group>"; };
 		847D12D9231310D900D974AB /* ZStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackView.swift; sourceTree = "<group>"; };
@@ -144,11 +162,48 @@
 			path = "4.Container Views";
 			sourceTree = "<group>";
 		};
+		846F058823146476007B7DFE /* 5.Spacers and Dividers */ = {
+			isa = PBXGroup;
+			children = (
+				846F058B231464BD007B7DFE /* SpacerView.swift */,
+				846F058F231464D6007B7DFE /* DividerView.swift */,
+			);
+			path = "5.Spacers and Dividers";
+			sourceTree = "<group>";
+		};
+		846F059523146901007B7DFE /* 6.Architectural Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "6.Architectural Views";
+			sourceTree = "<group>";
+		};
+		846F059623146913007B7DFE /* 7.Presentations */ = {
+			isa = PBXGroup;
+			children = (
+				846F059823146CA0007B7DFE /* AlertView.swift */,
+				8464149723147126001C8A8C /* ActionSheetView.swift */,
+			);
+			path = 7.Presentations;
+			sourceTree = "<group>";
+		};
+		846F059723146924007B7DFE /* 8.Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				8424C5FA231474EC008ADCB1 /* RectangleShape.swift */,
+				8424C60423147550008ADCB1 /* RoundedRectangleShape.swift */,
+				8424C5FC231474FA008ADCB1 /* CircleShape.swift */,
+				8424C5FE23147514008ADCB1 /* EllipseShape.swift */,
+				8424C60023147528008ADCB1 /* CapsuleShape.swift */,
+			);
+			path = 8.Shapes;
+			sourceTree = "<group>";
+		};
 		847D12D223130FE400D974AB /* 3.Lists and Scroll Views */ = {
 			isa = PBXGroup;
 			children = (
-				847D12D32313108B00D974AB /* ListsView.swift */,
 				847D12DF2313148C00D974AB /* ForEachView.swift */,
+				846F0593231464FA007B7DFE /* ListView.swift */,
 				846F057F231317DE007B7DFE /* ScrollsView.swift */,
 			);
 			path = "3.Lists and Scroll Views";
@@ -239,6 +294,10 @@
 				84F2ABC42313050100F9EEA6 /* 2.Stacks */,
 				847D12D223130FE400D974AB /* 3.Lists and Scroll Views */,
 				846F0581231319F9007B7DFE /* 4.Container Views */,
+				846F058823146476007B7DFE /* 5.Spacers and Dividers */,
+				846F059523146901007B7DFE /* 6.Architectural Views */,
+				846F059623146913007B7DFE /* 7.Presentations */,
+				846F059723146924007B7DFE /* 8.Shapes */,
 			);
 			path = "2項";
 			sourceTree = "<group>";
@@ -392,22 +451,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8464149823147126001C8A8C /* ActionSheetView.swift in Sources */,
 				84CDD9932311C65400B5BAB1 /* AppDelegate.swift in Sources */,
 				846F058523131AB9007B7DFE /* GroupView.swift in Sources */,
+				846F059923146CA0007B7DFE /* AlertView.swift in Sources */,
 				846F058723131AC2007B7DFE /* SectionView.swift in Sources */,
 				84CDD9952311C65400B5BAB1 /* SceneDelegate.swift in Sources */,
 				842EB12123127D8D001EEDF3 /* RectanglesView.swift in Sources */,
 				846F0580231317DE007B7DFE /* ScrollsView.swift in Sources */,
 				847D12DC2313116100D974AB /* TextView.swift in Sources */,
+				8424C60523147550008ADCB1 /* RoundedRectangleShape.swift in Sources */,
 				84CDD9C32311C68000B5BAB1 /* ViewBuilder.swift in Sources */,
+				846F058C231464BD007B7DFE /* SpacerView.swift in Sources */,
 				847D12D8231310D200D974AB /* HStackView.swift in Sources */,
 				842EB1192311E6B9001EEDF3 /* ViewModifier.swift in Sources */,
+				8424C5FF23147514008ADCB1 /* EllipseShape.swift in Sources */,
 				846F058323131AA8007B7DFE /* FormView.swift in Sources */,
+				8424C60123147528008ADCB1 /* CapsuleShape.swift in Sources */,
 				847D12D6231310B100D974AB /* VStackView.swift in Sources */,
+				8424C5FD231474FA008ADCB1 /* CircleShape.swift in Sources */,
 				842EB12323127DB0001EEDF3 /* RectanglesGeometryView.swift in Sources */,
-				847D12D42313108B00D974AB /* ListsView.swift in Sources */,
+				846F0590231464D6007B7DFE /* DividerView.swift in Sources */,
 				842EB125231297F7001EEDF3 /* GeometryCoordinateView.swift in Sources */,
+				846F0594231464FA007B7DFE /* ListView.swift in Sources */,
 				847D12E02313148C00D974AB /* ForEachView.swift in Sources */,
+				8424C5FB231474EC008ADCB1 /* RectangleShape.swift in Sources */,
 				847D12DA231310D900D974AB /* ZStackView.swift in Sources */,
 				84CDD9972311C65400B5BAB1 /* ContentView.swift in Sources */,
 			);

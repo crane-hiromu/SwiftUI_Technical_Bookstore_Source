@@ -1,14 +1,14 @@
 //
-//  ListsView.swift
+//  ListView.swift
 //  SwiftUI_Technical_Bookstore_Source
 //
-//  Created by admin on 2019/08/26.
+//  Created by admin on 2019/08/27.
 //  Copyright © 2019 h.crane. All rights reserved.
 //
 
 import SwiftUI
 
-struct ListsView: View {
+struct ListView: View {
     
     var body: some View {
         List {
@@ -19,8 +19,8 @@ struct ListsView: View {
     }
 }
 
-struct ListsView_Previews: PreviewProvider {
+struct ListView_Previews: PreviewProvider {
     static var previews: some View {
-        ListsView()
+        ListView()
     }
 }

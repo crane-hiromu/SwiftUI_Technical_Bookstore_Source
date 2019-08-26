@@ -11,8 +11,10 @@ import SwiftUI
 struct ForEachView: View {
     
     var body: some View {
-        ForEach(Range(0...10)) { row in
-            Text("row: \(row)")
+        VStack {
+            ForEach(Range(0...50)) { row in
+                Text("row: \(row)")
+            }
         }
     }
 }

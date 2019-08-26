@@ -11,10 +11,12 @@ import SwiftUI
 struct GroupView: View {
     
     var body: some View {
-        Group {
-            Text("Hello World!")
-            Text("Hello World!")
-            Text("Hello World!")
+        VStack {
+            Group {
+                Text("Hello World!")
+                Text("Hello World!")
+                Text("Hello World!")
+            }
         }
     }
 }
