@@ -30,12 +30,3 @@ final class PlayerView: UIView {
         playerLayer.frame = bounds
     }
 }
-//
-//// MARK: - Internal
-//
-//extension PlayerView {
-//    
-//    func updatePlayer(player: AVPlayer?) {
-//        playerLayer.player = player
-//    }
-//}

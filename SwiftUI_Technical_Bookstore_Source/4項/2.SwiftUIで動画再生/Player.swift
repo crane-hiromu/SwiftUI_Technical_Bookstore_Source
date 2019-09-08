@@ -31,7 +31,5 @@ extension Player: UIViewRepresentable {
         return PlayerView(player: player)
     }
     
-    func updateUIView(_ uiView: UIView, context: Context) {
-//        (uiView as? PlayerView)?.updatePlayer(player: player)
-    }
+    func updateUIView(_ uiView: UIView, context: Context) {}
 }
