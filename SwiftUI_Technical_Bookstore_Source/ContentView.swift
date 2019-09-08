@@ -9,8 +9,25 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
-        Text("Hello World")
+        NavigationView {
+            List {
+                NavigationLink(destination: TextView()) {
+                    Text("1.UIKitとSwiftUI")
+                }
+                NavigationLink(destination: TextView()) {
+                    Text("2.SwiftUIの基本的なView")
+                }
+                NavigationLink(destination: PlayerListView(viewModel: PlayerViewModel())) {
+                    Text("3.SwiftUIの独自なUserInterface")
+                }
+                NavigationLink(destination: DemoPlayerView()) {
+                    Text("4.SwiftUIで試みるログ集計")
+                }
+            }
+            .navigationBarTitle(Text("SwiftUIによる実装"))
+        }
     }
 }
 
