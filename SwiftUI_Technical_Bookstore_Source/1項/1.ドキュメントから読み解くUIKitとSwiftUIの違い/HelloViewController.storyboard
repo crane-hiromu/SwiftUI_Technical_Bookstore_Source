@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14865.1" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14819.2"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Hello View Controller-->
+        <scene sceneID="yDI-Xk-WHE">
+            <objects>
+                <viewController id="JNz-5r-JrH" customClass="HelloViewController" customModule="SwiftUI_Technical_Bookstore_Source" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="j98-qI-smZ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello World" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wro-qm-8eL">
+                                <rect key="frame" x="163" y="437.5" width="88.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Wro-qm-8eL" firstAttribute="centerX" secondItem="j98-qI-smZ" secondAttribute="centerX" id="YmW-oa-U5k"/>
+                            <constraint firstItem="Wro-qm-8eL" firstAttribute="centerY" secondItem="j98-qI-smZ" secondAttribute="centerY" id="qKK-OL-R0d"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="eST-pA-gEV"/>
+                    </view>
+                    <connections>
+                        <outlet property="textLabel" destination="Wro-qm-8eL" id="qMO-lR-2gC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="09Q-nl-3Mf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1015" y="-63"/>
+        </scene>
+    </scenes>
+</document>

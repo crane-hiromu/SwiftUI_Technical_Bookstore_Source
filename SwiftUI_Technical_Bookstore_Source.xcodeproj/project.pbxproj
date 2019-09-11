@@ -12,6 +12,9 @@
 		8406E481232038DF00F05E2A /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8406E480232038DF00F05E2A /* Player.swift */; };
 		8406E48323203AC500F05E2A /* DemoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8406E48223203AC500F05E2A /* DemoPlayerView.swift */; };
 		8406E4852320424E00F05E2A /* Playerable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8406E4842320424E00F05E2A /* Playerable.swift */; };
+		841658EB2326C49F00580EC5 /* HelloViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841658EA2326C49F00580EC5 /* HelloViewController.swift */; };
+		841658ED2326C55C00580EC5 /* HelloViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841658EC2326C55C00580EC5 /* HelloViewController.storyboard */; };
+		841658EF2326C70800580EC5 /* HelloLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841658EE2326C70800580EC5 /* HelloLabelView.swift */; };
 		841B0BBF231BB4B000CA89E8 /* TabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841B0BBE231BB4B000CA89E8 /* TabbarView.swift */; };
 		8424C5FB231474EC008ADCB1 /* RectangleShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424C5FA231474EC008ADCB1 /* RectangleShape.swift */; };
 		8424C5FD231474FA008ADCB1 /* CircleShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424C5FC231474FA008ADCB1 /* CircleShape.swift */; };
@@ -75,6 +78,9 @@
 		8406E480232038DF00F05E2A /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		8406E48223203AC500F05E2A /* DemoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoPlayerView.swift; sourceTree = "<group>"; };
 		8406E4842320424E00F05E2A /* Playerable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playerable.swift; sourceTree = "<group>"; };
+		841658EA2326C49F00580EC5 /* HelloViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HelloViewController.swift; path = ../HelloViewController.swift; sourceTree = "<group>"; };
+		841658EC2326C55C00580EC5 /* HelloViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = HelloViewController.storyboard; path = ../HelloViewController.storyboard; sourceTree = "<group>"; };
+		841658EE2326C70800580EC5 /* HelloLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HelloLabelView.swift; path = ../HelloLabelView.swift; sourceTree = "<group>"; };
 		841B0BBE231BB4B000CA89E8 /* TabbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarView.swift; sourceTree = "<group>"; };
 		8424C5FA231474EC008ADCB1 /* RectangleShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleShape.swift; sourceTree = "<group>"; };
 		8424C5FC231474FA008ADCB1 /* CircleShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleShape.swift; sourceTree = "<group>"; };
@@ -186,6 +192,47 @@
 			);
 			name = "3.SwiftUIで行うログ集計の最適な設計案";
 			path = "3.SwiftUIで行うログ集計の最適な設計案";
+			sourceTree = "<group>";
+		};
+		841658E32326C2F900580EC5 /* 1.ドキュメントから読み解くUIKitとSwiftUIの違い */ = {
+			isa = PBXGroup;
+			children = (
+				841658F12326C71F00580EC5 /* SwiftUI */,
+				841658F02326C71A00580EC5 /* UIKit */,
+			);
+			name = "1.ドキュメントから読み解くUIKitとSwiftUIの違い";
+			path = "1.ドキュメントから読み解くUIKitとSwiftUIの違い";
+			sourceTree = "<group>";
+		};
+		841658E42326C31300580EC5 /* 2.UserInterfaceにおける変化とその違い */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "2.UserInterfaceにおける変化とその違い";
+			sourceTree = "<group>";
+		};
+		841658E52326C31500580EC5 /* 3.Data Flowにおける変化とその違い */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "3.Data Flowにおける変化とその違い";
+			sourceTree = "<group>";
+		};
+		841658F02326C71A00580EC5 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				841658EA2326C49F00580EC5 /* HelloViewController.swift */,
+				841658EC2326C55C00580EC5 /* HelloViewController.storyboard */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		841658F12326C71F00580EC5 /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				841658EE2326C70800580EC5 /* HelloLabelView.swift */,
+			);
+			path = SwiftUI;
 			sourceTree = "<group>";
 		};
 		842EB1172311E60B001EEDF3 /* 2.ViewModifier */ = {
@@ -350,6 +397,9 @@
 		84CDD9C52311C71A00B5BAB1 /* 1項 */ = {
 			isa = PBXGroup;
 			children = (
+				841658E32326C2F900580EC5 /* 1.ドキュメントから読み解くUIKitとSwiftUIの違い */,
+				841658E42326C31300580EC5 /* 2.UserInterfaceにおける変化とその違い */,
+				841658E52326C31500580EC5 /* 3.Data Flowにおける変化とその違い */,
 			);
 			path = "1項";
 			sourceTree = "<group>";
@@ -491,6 +541,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				841658ED2326C55C00580EC5 /* HelloViewController.storyboard in Resources */,
 				84CDD99F2311C65700B5BAB1 /* LaunchScreen.storyboard in Resources */,
 				84CDD99C2311C65700B5BAB1 /* Preview Assets.xcassets in Resources */,
 				84CDD9992311C65700B5BAB1 /* Assets.xcassets in Resources */,
@@ -538,6 +589,7 @@
 				847D12D8231310D200D974AB /* HStackView.swift in Sources */,
 				8406E4852320424E00F05E2A /* Playerable.swift in Sources */,
 				84B540EF2325314D00FB3893 /* PlayerRow.swift in Sources */,
+				841658EB2326C49F00580EC5 /* HelloViewController.swift in Sources */,
 				842EB1192311E6B9001EEDF3 /* ViewModifier.swift in Sources */,
 				8424C5FF23147514008ADCB1 /* EllipseShape.swift in Sources */,
 				846F058323131AA8007B7DFE /* FormView.swift in Sources */,
@@ -546,6 +598,7 @@
 				8406E481232038DF00F05E2A /* Player.swift in Sources */,
 				8424C5FD231474FA008ADCB1 /* CircleShape.swift in Sources */,
 				842EB12323127DB0001EEDF3 /* RectanglesGeometryView.swift in Sources */,
+				841658EF2326C70800580EC5 /* HelloLabelView.swift in Sources */,
 				846F0590231464D6007B7DFE /* DividerView.swift in Sources */,
 				842EB125231297F7001EEDF3 /* GeometryCoordinateView.swift in Sources */,
 				841B0BBF231BB4B000CA89E8 /* TabbarView.swift in Sources */,
