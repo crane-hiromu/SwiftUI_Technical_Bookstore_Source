@@ -54,4 +54,13 @@ extension Player {
         handler(self, status.wrappedValue)
         return self
     }
+    
+    func logForDuration(
+        _ duration: Binding<CMTime?>,
+        handler: @escaping (CMTime?) -> Void
+    ) -> Player {
+        
+        handler(duration.wrappedValue)
+        return self
+    }
 }

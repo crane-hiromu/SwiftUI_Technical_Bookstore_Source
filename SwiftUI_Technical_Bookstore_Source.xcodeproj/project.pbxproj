@@ -27,6 +27,7 @@
 		842EB125231297F7001EEDF3 /* GeometryCoordinateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842EB124231297F7001EEDF3 /* GeometryCoordinateView.swift */; };
 		845AD6BA232F856100E98CFE /* PlayerObservedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845AD6B9232F856100E98CFE /* PlayerObservedView.swift */; };
 		845AD6BD23308CBC00E98CFE /* PlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845AD6BC23308CBC00E98CFE /* PlayerViewModel.swift */; };
+		845AD6BF233097FB00E98CFE /* PlayerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845AD6BE233097FB00E98CFE /* PlayerRow.swift */; };
 		8464149823147126001C8A8C /* ActionSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8464149723147126001C8A8C /* ActionSheetView.swift */; };
 		846F0580231317DE007B7DFE /* ScrollsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846F057F231317DE007B7DFE /* ScrollsView.swift */; };
 		846F058323131AA8007B7DFE /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846F058223131AA8007B7DFE /* FormView.swift */; };
@@ -97,6 +98,7 @@
 		842EB124231297F7001EEDF3 /* GeometryCoordinateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryCoordinateView.swift; sourceTree = "<group>"; };
 		845AD6B9232F856100E98CFE /* PlayerObservedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerObservedView.swift; sourceTree = "<group>"; };
 		845AD6BC23308CBC00E98CFE /* PlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewModel.swift; sourceTree = "<group>"; };
+		845AD6BE233097FB00E98CFE /* PlayerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerRow.swift; sourceTree = "<group>"; };
 		8464149723147126001C8A8C /* ActionSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetView.swift; sourceTree = "<group>"; };
 		846F057F231317DE007B7DFE /* ScrollsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollsView.swift; sourceTree = "<group>"; };
 		846F058223131AA8007B7DFE /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
@@ -276,6 +278,7 @@
 			children = (
 				84B540EA2324F9DA00FB3893 /* PlayerListView.swift */,
 				845AD6BC23308CBC00E98CFE /* PlayerViewModel.swift */,
+				845AD6BE233097FB00E98CFE /* PlayerRow.swift */,
 			);
 			path = 5.;
 			sourceTree = "<group>";
@@ -636,6 +639,7 @@
 				84B1B2C5232EC64700095D78 /* PlayerManagerDemoView.swift in Sources */,
 				841B0BBF231BB4B000CA89E8 /* TabbarView.swift in Sources */,
 				846F0594231464FA007B7DFE /* ListView.swift in Sources */,
+				845AD6BF233097FB00E98CFE /* PlayerRow.swift in Sources */,
 				847D12E02313148C00D974AB /* ForEachView.swift in Sources */,
 				8424C5FB231474EC008ADCB1 /* RectangleShape.swift in Sources */,
 				84B36B65232581FD00C024A2 /* PlayerManager.swift in Sources */,

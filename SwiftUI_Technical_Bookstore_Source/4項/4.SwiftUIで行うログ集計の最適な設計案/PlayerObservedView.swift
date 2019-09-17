@@ -19,14 +19,20 @@ struct PlayerObservedView: View {
                 switch status {
                 case .readyToPlay:
                     player.play()
-                default:
-                    player.pause()
+                case .failed:
+                    break
+                case .unknown:
+                    break
+                @unknown default:
+                    break
                 }
             }
             .onAppear() {
                 self.observer.load(url: URL(string: demoURL)!)
             }
-            .frame(height: 100)
+            .onDisappear() {
+                self.observer.dispose()
+            }
     }
 }
 

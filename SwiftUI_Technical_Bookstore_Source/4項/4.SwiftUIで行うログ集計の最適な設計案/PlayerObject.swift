@@ -20,6 +20,7 @@ final class PlayerObject: ObservableObject {
     
     @Published var player: AVPlayer = AVPlayer()
     @Published var status: AVPlayerItem.Status = .unknown
+    @Published var duration: CMTime?
 }
 
 

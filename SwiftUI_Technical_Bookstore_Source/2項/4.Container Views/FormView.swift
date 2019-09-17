@@ -13,10 +13,9 @@ struct FormView: View {
     var body: some View {
         Form {
             Section(header: Text("フォーム").font(.title)) {
-                Text("Form Text").font(.title)
-                Text("Form Text").font(.title)
+                Text("Form A").font(.title)
+                Text("Form B").font(.title)
             }
-            Divider()
             Section {
                 Button(action: {
                     /* do something */
