@@ -13,16 +13,16 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             List {
-                NavigationLink(destination: TextView()) {
+                NavigationLink(destination: PlayerObservedView()) {
                     Text("1.UIKitとSwiftUI")
                 }
-                NavigationLink(destination: TextView()) {
+                NavigationLink(destination: PlayerManagerDemoView()) {
                     Text("2.SwiftUIの基本的なView")
                 }
                 NavigationLink(destination: PlayerListView(viewModel: PlayerViewModel())) {
                     Text("3.SwiftUIの独自なUserInterface")
                 }
-                NavigationLink(destination: DemoPlayerView()) {
+                NavigationLink(destination: PlayerDemoView()) {
                     Text("4.SwiftUIで試みるログ集計")
                 }
             }

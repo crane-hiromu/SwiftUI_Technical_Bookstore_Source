@@ -29,4 +29,23 @@ final class PlayerView: UIView {
         
         playerLayer.frame = bounds
     }
+    
+    deinit {
+        PlayerObject.observer.dispose()
+    }
+}
+
+extension PlayerView {
+    
+    func update(player: AVPlayer?) {
+        playerLayer.player = player
+    }
+    
+    func play() {
+        playerLayer.player?.play()
+    }
+    
+    func pause() {
+        playerLayer.player?.pause()
+    }
 }

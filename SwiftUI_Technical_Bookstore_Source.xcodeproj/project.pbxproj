@@ -10,7 +10,7 @@
 		8406E47B23201FD300F05E2A /* RepresentableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8406E47A23201FD300F05E2A /* RepresentableView.swift */; };
 		8406E47F232033BF00F05E2A /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8406E47E232033BF00F05E2A /* PlayerView.swift */; };
 		8406E481232038DF00F05E2A /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8406E480232038DF00F05E2A /* Player.swift */; };
-		8406E48323203AC500F05E2A /* DemoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8406E48223203AC500F05E2A /* DemoPlayerView.swift */; };
+		8406E48323203AC500F05E2A /* PlayerDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8406E48223203AC500F05E2A /* PlayerDemoView.swift */; };
 		8406E4852320424E00F05E2A /* Playerable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8406E4842320424E00F05E2A /* Playerable.swift */; };
 		841658EB2326C49F00580EC5 /* HelloViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841658EA2326C49F00580EC5 /* HelloViewController.swift */; };
 		841658ED2326C55C00580EC5 /* HelloViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841658EC2326C55C00580EC5 /* HelloViewController.storyboard */; };
@@ -25,6 +25,8 @@
 		842EB12123127D8D001EEDF3 /* RectanglesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842EB12023127D8D001EEDF3 /* RectanglesView.swift */; };
 		842EB12323127DB0001EEDF3 /* RectanglesGeometryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842EB12223127DB0001EEDF3 /* RectanglesGeometryView.swift */; };
 		842EB125231297F7001EEDF3 /* GeometryCoordinateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842EB124231297F7001EEDF3 /* GeometryCoordinateView.swift */; };
+		845AD6BA232F856100E98CFE /* PlayerObservedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845AD6B9232F856100E98CFE /* PlayerObservedView.swift */; };
+		845AD6BD23308CBC00E98CFE /* PlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845AD6BC23308CBC00E98CFE /* PlayerViewModel.swift */; };
 		8464149823147126001C8A8C /* ActionSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8464149723147126001C8A8C /* ActionSheetView.swift */; };
 		846F0580231317DE007B7DFE /* ScrollsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846F057F231317DE007B7DFE /* ScrollsView.swift */; };
 		846F058323131AA8007B7DFE /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846F058223131AA8007B7DFE /* FormView.swift */; };
@@ -39,10 +41,12 @@
 		847D12DA231310D900D974AB /* ZStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847D12D9231310D900D974AB /* ZStackView.swift */; };
 		847D12DC2313116100D974AB /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847D12DB2313116100D974AB /* TextView.swift */; };
 		847D12E02313148C00D974AB /* ForEachView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847D12DF2313148C00D974AB /* ForEachView.swift */; };
-		84B36B65232581FD00C024A2 /* PlayerLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B36B64232581FD00C024A2 /* PlayerLoader.swift */; };
+		84A7AB2D232E75C100ED7D94 /* PlayerObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A7AB2C232E75C100ED7D94 /* PlayerObject.swift */; };
+		84A7AB2F232E761100ED7D94 /* PlayerManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A7AB2E232E761100ED7D94 /* PlayerManagerDelegate.swift */; };
+		84B1B2C1232EC08700095D78 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B1B2C0232EC08700095D78 /* PlayerViewController.swift */; };
+		84B1B2C5232EC64700095D78 /* PlayerManagerDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B1B2C4232EC64700095D78 /* PlayerManagerDemoView.swift */; };
+		84B36B65232581FD00C024A2 /* PlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B36B64232581FD00C024A2 /* PlayerManager.swift */; };
 		84B540EB2324F9DA00FB3893 /* PlayerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B540EA2324F9DA00FB3893 /* PlayerListView.swift */; };
-		84B540ED2325312B00FB3893 /* PlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B540EC2325312B00FB3893 /* PlayerViewModel.swift */; };
-		84B540EF2325314D00FB3893 /* PlayerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B540EE2325314D00FB3893 /* PlayerRow.swift */; };
 		84CDD9932311C65400B5BAB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CDD9922311C65400B5BAB1 /* AppDelegate.swift */; };
 		84CDD9952311C65400B5BAB1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CDD9942311C65400B5BAB1 /* SceneDelegate.swift */; };
 		84CDD9972311C65400B5BAB1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CDD9962311C65400B5BAB1 /* ContentView.swift */; };
@@ -76,7 +80,7 @@
 		8406E47A23201FD300F05E2A /* RepresentableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepresentableView.swift; sourceTree = "<group>"; };
 		8406E47E232033BF00F05E2A /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 		8406E480232038DF00F05E2A /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
-		8406E48223203AC500F05E2A /* DemoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoPlayerView.swift; sourceTree = "<group>"; };
+		8406E48223203AC500F05E2A /* PlayerDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDemoView.swift; sourceTree = "<group>"; };
 		8406E4842320424E00F05E2A /* Playerable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playerable.swift; sourceTree = "<group>"; };
 		841658EA2326C49F00580EC5 /* HelloViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HelloViewController.swift; path = ../HelloViewController.swift; sourceTree = "<group>"; };
 		841658EC2326C55C00580EC5 /* HelloViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = HelloViewController.storyboard; path = ../HelloViewController.storyboard; sourceTree = "<group>"; };
@@ -91,6 +95,8 @@
 		842EB12023127D8D001EEDF3 /* RectanglesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectanglesView.swift; sourceTree = "<group>"; };
 		842EB12223127DB0001EEDF3 /* RectanglesGeometryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectanglesGeometryView.swift; sourceTree = "<group>"; };
 		842EB124231297F7001EEDF3 /* GeometryCoordinateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryCoordinateView.swift; sourceTree = "<group>"; };
+		845AD6B9232F856100E98CFE /* PlayerObservedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerObservedView.swift; sourceTree = "<group>"; };
+		845AD6BC23308CBC00E98CFE /* PlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewModel.swift; sourceTree = "<group>"; };
 		8464149723147126001C8A8C /* ActionSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetView.swift; sourceTree = "<group>"; };
 		846F057F231317DE007B7DFE /* ScrollsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollsView.swift; sourceTree = "<group>"; };
 		846F058223131AA8007B7DFE /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
@@ -105,10 +111,12 @@
 		847D12D9231310D900D974AB /* ZStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackView.swift; sourceTree = "<group>"; };
 		847D12DB2313116100D974AB /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		847D12DF2313148C00D974AB /* ForEachView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachView.swift; sourceTree = "<group>"; };
-		84B36B64232581FD00C024A2 /* PlayerLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerLoader.swift; sourceTree = "<group>"; };
-		84B540EA2324F9DA00FB3893 /* PlayerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerListView.swift; sourceTree = "<group>"; };
-		84B540EC2325312B00FB3893 /* PlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewModel.swift; sourceTree = "<group>"; };
-		84B540EE2325314D00FB3893 /* PlayerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerRow.swift; sourceTree = "<group>"; };
+		84A7AB2C232E75C100ED7D94 /* PlayerObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerObject.swift; sourceTree = "<group>"; };
+		84A7AB2E232E761100ED7D94 /* PlayerManagerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerManagerDelegate.swift; sourceTree = "<group>"; };
+		84B1B2C0232EC08700095D78 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		84B1B2C4232EC64700095D78 /* PlayerManagerDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerManagerDemoView.swift; sourceTree = "<group>"; };
+		84B36B64232581FD00C024A2 /* PlayerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerManager.swift; sourceTree = "<group>"; };
+		84B540EA2324F9DA00FB3893 /* PlayerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlayerListView.swift; path = "../4.SwiftUIで行うログ集計の最適な設計案/PlayerListView.swift"; sourceTree = "<group>"; };
 		84CDD98F2311C65400B5BAB1 /* SwiftUI_Technical_Bookstore_Source.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Technical_Bookstore_Source.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84CDD9922311C65400B5BAB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84CDD9942311C65400B5BAB1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -157,7 +165,9 @@
 			children = (
 				8406E4772320149600F05E2A /* 1.SwiftUIとUIViewの接続 */,
 				8406E4782320149E00F05E2A /* 2.SwiftUIで動画再生 */,
-				8406E479232014A900F05E2A /* 3.SwiftUIで行うログ集計の最適な設計案 */,
+				84A7AB2B232E5C8300ED7D94 /* 3.動画をアプリで表示するための最適な設計 */,
+				8406E479232014A900F05E2A /* 4.SwiftUIで行うログ集計の最適な設計案 */,
+				845AD6BB23308B0400E98CFE /* 5. */,
 			);
 			path = "4項";
 			sourceTree = "<group>";
@@ -174,24 +184,22 @@
 			isa = PBXGroup;
 			children = (
 				8406E47E232033BF00F05E2A /* PlayerView.swift */,
-				84B36B64232581FD00C024A2 /* PlayerLoader.swift */,
 				8406E4842320424E00F05E2A /* Playerable.swift */,
 				8406E480232038DF00F05E2A /* Player.swift */,
-				8406E48223203AC500F05E2A /* DemoPlayerView.swift */,
+				8406E48223203AC500F05E2A /* PlayerDemoView.swift */,
 			);
 			name = "2.SwiftUIで動画再生";
 			path = "2.SwiftUIで動画再生";
 			sourceTree = "<group>";
 		};
-		8406E479232014A900F05E2A /* 3.SwiftUIで行うログ集計の最適な設計案 */ = {
+		8406E479232014A900F05E2A /* 4.SwiftUIで行うログ集計の最適な設計案 */ = {
 			isa = PBXGroup;
 			children = (
-				84B540EA2324F9DA00FB3893 /* PlayerListView.swift */,
-				84B540EE2325314D00FB3893 /* PlayerRow.swift */,
-				84B540EC2325312B00FB3893 /* PlayerViewModel.swift */,
+				84A7AB2C232E75C100ED7D94 /* PlayerObject.swift */,
+				845AD6B9232F856100E98CFE /* PlayerObservedView.swift */,
 			);
-			name = "3.SwiftUIで行うログ集計の最適な設計案";
-			path = "3.SwiftUIで行うログ集計の最適な設計案";
+			name = "4.SwiftUIで行うログ集計の最適な設計案";
+			path = "4.SwiftUIで行うログ集計の最適な設計案";
 			sourceTree = "<group>";
 		};
 		841658E32326C2F900580EC5 /* 1.ドキュメントから読み解くUIKitとSwiftUIの違い */ = {
@@ -263,6 +271,15 @@
 			path = 3.GeometryReader;
 			sourceTree = "<group>";
 		};
+		845AD6BB23308B0400E98CFE /* 5. */ = {
+			isa = PBXGroup;
+			children = (
+				84B540EA2324F9DA00FB3893 /* PlayerListView.swift */,
+				845AD6BC23308CBC00E98CFE /* PlayerViewModel.swift */,
+			);
+			path = 5.;
+			sourceTree = "<group>";
+		};
 		846F0581231319F9007B7DFE /* 4.Container Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -320,6 +337,18 @@
 				846F057F231317DE007B7DFE /* ScrollsView.swift */,
 			);
 			path = "3.Lists and Scroll Views";
+			sourceTree = "<group>";
+		};
+		84A7AB2B232E5C8300ED7D94 /* 3.動画をアプリで表示するための最適な設計 */ = {
+			isa = PBXGroup;
+			children = (
+				84B36B64232581FD00C024A2 /* PlayerManager.swift */,
+				84A7AB2E232E761100ED7D94 /* PlayerManagerDelegate.swift */,
+				84B1B2C0232EC08700095D78 /* PlayerViewController.swift */,
+				84B1B2C4232EC64700095D78 /* PlayerManagerDemoView.swift */,
+			);
+			name = "3.動画をアプリで表示するための最適な設計";
+			path = "3.動画をアプリで表示するための最適な設計";
 			sourceTree = "<group>";
 		};
 		84CDD9862311C65400B5BAB1 = {
@@ -574,11 +603,12 @@
 				8464149823147126001C8A8C /* ActionSheetView.swift in Sources */,
 				84CDD9932311C65400B5BAB1 /* AppDelegate.swift in Sources */,
 				846F058523131AB9007B7DFE /* GroupView.swift in Sources */,
+				84A7AB2F232E761100ED7D94 /* PlayerManagerDelegate.swift in Sources */,
 				846F059923146CA0007B7DFE /* AlertView.swift in Sources */,
-				8406E48323203AC500F05E2A /* DemoPlayerView.swift in Sources */,
+				8406E48323203AC500F05E2A /* PlayerDemoView.swift in Sources */,
 				846F058723131AC2007B7DFE /* SectionView.swift in Sources */,
+				84B1B2C1232EC08700095D78 /* PlayerViewController.swift in Sources */,
 				84CDD9952311C65400B5BAB1 /* SceneDelegate.swift in Sources */,
-				84B540ED2325312B00FB3893 /* PlayerViewModel.swift in Sources */,
 				842EB12123127D8D001EEDF3 /* RectanglesView.swift in Sources */,
 				84B540EB2324F9DA00FB3893 /* PlayerListView.swift in Sources */,
 				846F0580231317DE007B7DFE /* ScrollsView.swift in Sources */,
@@ -588,12 +618,14 @@
 				846F058C231464BD007B7DFE /* SpacerView.swift in Sources */,
 				847D12D8231310D200D974AB /* HStackView.swift in Sources */,
 				8406E4852320424E00F05E2A /* Playerable.swift in Sources */,
-				84B540EF2325314D00FB3893 /* PlayerRow.swift in Sources */,
 				841658EB2326C49F00580EC5 /* HelloViewController.swift in Sources */,
+				845AD6BD23308CBC00E98CFE /* PlayerViewModel.swift in Sources */,
+				845AD6BA232F856100E98CFE /* PlayerObservedView.swift in Sources */,
 				842EB1192311E6B9001EEDF3 /* ViewModifier.swift in Sources */,
 				8424C5FF23147514008ADCB1 /* EllipseShape.swift in Sources */,
 				846F058323131AA8007B7DFE /* FormView.swift in Sources */,
 				8424C60123147528008ADCB1 /* CapsuleShape.swift in Sources */,
+				84A7AB2D232E75C100ED7D94 /* PlayerObject.swift in Sources */,
 				847D12D6231310B100D974AB /* VStackView.swift in Sources */,
 				8406E481232038DF00F05E2A /* Player.swift in Sources */,
 				8424C5FD231474FA008ADCB1 /* CircleShape.swift in Sources */,
@@ -601,11 +633,12 @@
 				841658EF2326C70800580EC5 /* HelloLabelView.swift in Sources */,
 				846F0590231464D6007B7DFE /* DividerView.swift in Sources */,
 				842EB125231297F7001EEDF3 /* GeometryCoordinateView.swift in Sources */,
+				84B1B2C5232EC64700095D78 /* PlayerManagerDemoView.swift in Sources */,
 				841B0BBF231BB4B000CA89E8 /* TabbarView.swift in Sources */,
 				846F0594231464FA007B7DFE /* ListView.swift in Sources */,
 				847D12E02313148C00D974AB /* ForEachView.swift in Sources */,
 				8424C5FB231474EC008ADCB1 /* RectangleShape.swift in Sources */,
-				84B36B65232581FD00C024A2 /* PlayerLoader.swift in Sources */,
+				84B36B65232581FD00C024A2 /* PlayerManager.swift in Sources */,
 				847D12DA231310D900D974AB /* ZStackView.swift in Sources */,
 				84CDD9972311C65400B5BAB1 /* ContentView.swift in Sources */,
 				8406E47B23201FD300F05E2A /* RepresentableView.swift in Sources */,
@@ -773,8 +806,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI_Technical_Bookstore_Source/Preview Content\"";
+				DEVELOPMENT_TEAM = R82WJ5W3TV;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUI_Technical_Bookstore_Source/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -783,6 +818,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "swiftui.player.SwiftUI-Technical-Bookstore-Source";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -792,8 +828,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI_Technical_Bookstore_Source/Preview Content\"";
+				DEVELOPMENT_TEAM = R82WJ5W3TV;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUI_Technical_Bookstore_Source/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -802,6 +840,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "swiftui.player.SwiftUI-Technical-Bookstore-Source";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
