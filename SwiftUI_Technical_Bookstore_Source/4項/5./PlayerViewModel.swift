@@ -31,7 +31,7 @@ struct PlayerModel: Identifiable {
 
 /* video demo urls */
 
-public let demoURL = "https://media.delishkitchen.tv/recipe/249775760464675891/1.m3u8"
+public let demoURL = "https://download.videvo.net/videvo_files/video/premium/video0038/small_watermarked/la_freewaysnight2_preview.mp4"
 
 public let demoBaseUrl = "https://download.videvo.net/videvo_files/"
 
@@ -53,11 +53,6 @@ public let demoUrls: [String] = [
 //    "video/premium/video0034/small_watermarked/airport_rush05_preview.mp4",
 //    "video/free/2019-09/small_watermarked/190828_04_ChangiAirport_UHD_11_preview.mp4",
 //    "converted/2015_08/videos/airportterminal.mov21420.mp4"
-
-    "https://media.delishkitchen.tv/recipe/249096910063796570/1.m3u8",
-    "https://media.delishkitchen.tv/recipe/139791175862190499/1.m3u8",
-    "https://media.delishkitchen.tv/recipe/142662346819502579/1.m3u8",
-    "https://media.delishkitchen.tv/recipe/249775760464675891/1.m3u8"
 ]
 
 
