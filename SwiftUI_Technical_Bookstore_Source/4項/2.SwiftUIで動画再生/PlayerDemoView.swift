@@ -11,10 +11,17 @@ import AVKit
 
 struct PlayerDemoView: View {
     
+    let player = Player(url: URL(string: demoURL)!)
+    
     var body: some View {
-        let player = Player(url: URL(string: "https://..")!)
-        player.play()
-        return player
+        VStack {
+            ForEach(Range(1...16)) { row in
+                self.player.onAppear {
+                    self.player.play()
+                }
+            }
+        }
+
     }
 }
 

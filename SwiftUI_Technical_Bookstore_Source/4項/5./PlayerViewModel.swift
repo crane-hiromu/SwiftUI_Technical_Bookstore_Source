@@ -31,28 +31,28 @@ struct PlayerModel: Identifiable {
 
 /* video demo urls */
 
-public let demoURL = "https://download.videvo.net/videvo_files/video/premium/video0038/small_watermarked/la_freewaysnight2_preview.mp4"
+public let demoURL = "https://media.delishkitchen.tv/recipe/183238839005872532/1.mp4"
 
 public let demoBaseUrl = "https://download.videvo.net/videvo_files/"
 
 public let demoUrls: [String] = [
-//    "video/premium/video0038/small_watermarked/la_freewaysnight2_preview.mp4",
-//    "video/premium/video0034/small_watermarked/airport_rush01_preview.mp4",
-//    "video/premium/video0034/small_watermarked/airport_rush05_preview.mp4",
-//    "video/free/2019-09/small_watermarked/190828_04_ChangiAirport_UHD_11_preview.mp4",
-//    "converted/2015_08/videos/airportterminal.mov21420.mp4",
-//    "converted/2015_08/videos/womaninterminal.mov40583.mp4",
-//    "video/premium/video0038/small_watermarked/la_freewaysnight2_preview.mp4",
-//    "video/premium/video0034/small_watermarked/airport_rush01_preview.mp4",
-//    "video/premium/video0034/small_watermarked/airport_rush05_preview.mp4",
-//    "video/free/2019-09/small_watermarked/190828_04_ChangiAirport_UHD_11_preview.mp4",
-//    "converted/2015_08/videos/airportterminal.mov21420.mp4",
-//    "converted/2015_08/videos/womaninterminal.mov40583.mp4",
-//    "video/premium/video0038/small_watermarked/la_freewaysnight2_preview.mp4",
-//    "video/premium/video0034/small_watermarked/airport_rush01_preview.mp4",
-//    "video/premium/video0034/small_watermarked/airport_rush05_preview.mp4",
-//    "video/free/2019-09/small_watermarked/190828_04_ChangiAirport_UHD_11_preview.mp4",
-//    "converted/2015_08/videos/airportterminal.mov21420.mp4"
+    "video/premium/video0038/small_watermarked/la_freewaysnight2_preview.mp4",
+    "video/premium/video0034/small_watermarked/airport_rush01_preview.mp4",
+    "video/premium/video0034/small_watermarked/airport_rush05_preview.mp4",
+    "video/free/2019-09/small_watermarked/190828_04_ChangiAirport_UHD_11_preview.mp4",
+    "converted/2015_08/videos/airportterminal.mov21420.mp4",
+    "converted/2015_08/videos/womaninterminal.mov40583.mp4",
+    "video/premium/video0038/small_watermarked/la_freewaysnight2_preview.mp4",
+    "video/premium/video0034/small_watermarked/airport_rush01_preview.mp4",
+    "video/premium/video0034/small_watermarked/airport_rush05_preview.mp4",
+    "video/free/2019-09/small_watermarked/190828_04_ChangiAirport_UHD_11_preview.mp4",
+    "converted/2015_08/videos/airportterminal.mov21420.mp4",
+    "converted/2015_08/videos/womaninterminal.mov40583.mp4",
+    "video/premium/video0038/small_watermarked/la_freewaysnight2_preview.mp4",
+    "video/premium/video0034/small_watermarked/airport_rush01_preview.mp4",
+    "video/premium/video0034/small_watermarked/airport_rush05_preview.mp4",
+    "video/free/2019-09/small_watermarked/190828_04_ChangiAirport_UHD_11_preview.mp4",
+    "converted/2015_08/videos/airportterminal.mov21420.mp4"
 ]
 
 

@@ -14,6 +14,7 @@ struct PlayerListView: View {
     
     var body: some View {
         List(viewModel.players) { model in
+            
             PlayerRow(model: model)
                 .frame(height: UIScreen.main.bounds.height)
         }
